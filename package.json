@@ -1,0 +1,21 @@
+{
+	"name": "postman-demo-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lint": "npx @biomejs/biome format --write .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "Zlib",
+	"dependencies": {
+		"express": "^4.19.2",
+		"express-basic-auth": "^1.2.1",
+		"stripe": "^15.3.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.7.1"
+	}
+}
